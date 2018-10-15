@@ -17,3 +17,15 @@ end
 def last_element(array)
   array[-1]
 end
+
+def first_element_with_array(array)
+  array.shift
+end
+
+def last_element_with_array(array)
+  array.pop
+end
+
+def length_of_array(array)
+  array.count
+end
